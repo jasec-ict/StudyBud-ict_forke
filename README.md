@@ -20,17 +20,11 @@ cd StudyBud
 
 --> Create a virtual environment :
 ```bash
-# Let's install virtualenv first
-pip install virtualenv
-
-# Then we create our virtual environment
-virtualenv envname
-
-```
+python -m venv venv
 
 --> Activate the virtual environment :
 ```bash
-envname\scripts\activate
+venv\scripts\activate
 
 ```
 
